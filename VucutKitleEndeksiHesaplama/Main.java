@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("Vücut kitle endeksiniz: " + kitleEndeksi);
 
-        String sonuc = kitleEndeksi < 19 ? "Zayıfsınız" : "Çok şişmansınız" ;
+        String sonuc = kitleEndeksi < 19 ? "Zayıfsınız" : kitleEndeksi > 19 && kitleEndeksi <30 ? "Kilonuz normal" :"Çok şişmansınız" ;
         System.out.println(sonuc);
 
     }
