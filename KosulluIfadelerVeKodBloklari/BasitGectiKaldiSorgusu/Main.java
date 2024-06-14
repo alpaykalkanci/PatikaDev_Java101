@@ -12,10 +12,6 @@ public class Main {
         ortalama = input.nextDouble();
 
         System.out.println(ortalama > 45 ? "Geçti" : "Kaldı");
-
-        boolean a = true, b = false;
-        System.out.println((a && b) || (a || b));
-
     
     }
 }
